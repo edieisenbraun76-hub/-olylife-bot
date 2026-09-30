@@ -9,9 +9,9 @@ NEU: Kein images-Ordner noetig! Fotos werden direkt im Bot gespeichert:
      Fertig! Der Bot merkt sich alle Fotos.
 
 Vor dem Start eintragen:
-    1) BOT_TOKEN        -> Token vom @BotFather
-    2) ADMIN_ID         -> Ihre numerische Telegram-ID
-    3) ADMIN_WHATSAPP   -> Ihre WhatsApp-Nummer, Format 49XXXXXXXXXX (ohne +)
+    1) BOT_TOKEN        -> "8975184474:AAE8eQ5pZztF1Oxb7son3KpmK9tPcSHRPUI"
+    2) ADMIN_ID         -> "710161270"
+    3) ADMIN_WHATSAPP   -> Ihre WhatsApp-Nummer, Format4917660409847 (ohne +)
 """
 
 import os
