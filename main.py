@@ -2,9 +2,9 @@ from flask import Flask
 import threading
 flask_app = Flask(__name__)
 @flask_app.route('/')
-def home(): return "OlyLife bot is alive!"
-threading.Thread(target=lambda: flask_app.run(host='0.0.0.0', port=10000), daemon=True).start()
-
+def home(): return "OlyLife bot 
+def run_flask(): flask_app.run(host='0.0.0.0', port=10000)
+threading.Thread(target=run_flask, daemon=True).start()
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
